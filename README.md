@@ -1,2 +1,3 @@
-# workspace-github.com-bootdotdev-bookbot
-Bookbot training from boots
+# bookbot
+
+BookBot is my first [Boot.dev](https://www.boot.dev) project!
