@@ -20,8 +20,11 @@ def sorted_list(chars):
         item["char"] = key
         item["num"] = num
         #item = {"char": key, "num": num}
-        if key.isalpha():
-            output.append(item) 
+        if not key.isalpha():
+            continue
+        
+        output.append(item)
+
         #print(f"{key} {num}")
         #print(item)
     output.sort(key=sort_on, reverse=True)
